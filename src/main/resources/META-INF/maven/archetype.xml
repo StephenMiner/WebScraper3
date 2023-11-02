@@ -1,0 +1,6 @@
+<archetype>
+  <id>WebScraper3</id>
+  <sources>
+    <source>src/main/java/me.stephenminer.WebScraper3</source>
+  </sources>
+</archetype>
