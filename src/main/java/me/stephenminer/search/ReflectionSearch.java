@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 public class ReflectionSearch implements Search<HashMap<String,Double>> {
     private final WebDriver driver;
-    private HashMap<String, Double> reflectionPoints;
+    protected HashMap<String, Double> reflectionPoints;
 
     public ReflectionSearch(WebDriver driver){
         this.driver = driver;
